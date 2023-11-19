@@ -7,7 +7,7 @@ import datetime
 from PIL import Image
 import numpy as np
 
-df = pd.read_csv(r"dataset\train.csv", skipinitialspace=True)
+df = pd.read_csv(r"..\dataset\train.csv", skipinitialspace=True)
 df1 = df.copy()
 
 #-----------------------------
