@@ -10,7 +10,7 @@ from streamlit_folium import folium_static
 
 st.set_page_config(page_title='Visão Empresa', layout='wide')
 
-df = pd.read_csv(r"..\dataset\train.csv", skipinitialspace=True)
+df = pd.read_csv(r"dataset/train.csv", skipinitialspace=True)
 
 df1 = df.copy()
 
